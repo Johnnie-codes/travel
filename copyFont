@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Check if source folder is provided as argument
+echo $1
+if [ -z "$1" ]; then
+    echo "Usage: $0 <source_fonts_folder>"
+    exit 1
+fi
+
+SOURCE_FOLDER="$1"
+TARGET_FOLDER="./node_modules/pdfmake"
+
+# Check if source folder exists
+if [ ! -d "$SOURCE_FOLDER" ]; then
+    echo "Error: Source folder '$SOURCE_FOLDER' does not exist"
+    exit 1
+fi
+
+# Check if node_modules/pdfmake exists
+if [ ! -d "$TARGET_FOLDER" ]; then
+    echo "Error: Target folder '$TARGET_FOLDER' does not exist"
+    exit 1
+fi
+
+# Copy fonts folder to pdfmake directory
+echo "Copying fonts..."
+cp -r "$SOURCE_FOLDER" "$TARGET_FOLDER"
+
+# Navigate to pdfmake directory and run build command
+echo "Building fonts..."
+cd "$TARGET_FOLDER"
+node build-vfs.js ./examples/fonts
+
+echo "Font installation complete!"
+
+
