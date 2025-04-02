@@ -2,18 +2,8 @@
 import pdfMake from 'pdfmake/build/pdfmake.js';
 import pdfFonts from 'pdfmake/build/vfs_fonts.js';
 import { ref } from 'vue';
-
+// import NotoSansEthiopic from './node_modules/pdfmake/examples/fonts/NotoSansEthiopic-Bold.ttf';
 pdfMake.vfs = pdfFonts.vfs;
-pdfMake.fonts = {
-  Roboto: {
-    normal: 'Roboto-Regular.ttf',
-    bold: 'Roboto-Bold.ttf',
-  },
-  'NotoSansEthiopic': {
-    normal: 'NotoSansEthiopic-Regular.ttf',
-    bold: 'NotoSansEthiopic-Bold.ttf',
-  }
-}
 
 const props = defineProps({
   content: {
@@ -35,7 +25,7 @@ if(props.content) {
     pageMargins: [20, 70, 20, 20],
     ...props.content,
     defaultStyle: {
-      font: 'NotoSansEthiopic',
+      // font: 'NotoSansEthiopic',
       fontSize: 11,
       ...(props.content?.styles?.defaultStyle || {})
     },
