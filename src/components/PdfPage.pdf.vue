@@ -1644,9 +1644,11 @@ const dcoDeifinition = {
                 text: "5.3. Theft of documentation or luggage up to 24 hours prior to the start of the journey, which impedes the Insured from initiating the journey",
               },
               {
+                marginBottom: 10,
                 text: "5.4. Cancellation of a trip by the accompanying Insured Parties under this samecontract, provided this cancellation stems from one of the causes listedabove. Should the accompanying Insured Parties decide to continue thejourney, additional expenses shall be duly covered in respect of the Insured cancellation of a trip.",
               },
               {
+                marginBottom: 10,
                 text: "DOCUMENTS NECESSARY TO CLAIM FOR PAYMENT OF CANCELLATION FEES",
                 bold: "true",
               },
@@ -1663,25 +1665,314 @@ const dcoDeifinition = {
                 text: "4. Invoice of the cancellation costs or payment note for the costs that are not included in the “cancellation costs”",
               },
               {
+                marginBottom: 10,
                 text: "5. It is essential that the expenses for cancelling the trip are duly reflected in the required documentation outlined above. ",
               },
-              { text: "SPECIFIC EXCLUSIONS CANCELLATION", bold: "true" },
               {
+                marginBottom: 10,
+                text: "SPECIFIC EXCLUSIONS CANCELLATION",
+                bold: "true",
+              },
+              {
+                marginBottom: 10,
                 bold: "true",
                 text: "In addition to the General Exclusions to all the cover sections of this policy, this cover shall not be provided for the following cases and their consequences:",
               },
-              { bold: "true", text: "• Travel or vaccination contraindication or the impossibility of continuingrecommended preventive medical treatment in certain destinations." },
+              {
+                bold: "true",
+                text: "• Travel or vaccination contraindication or the impossibility of continuingrecommended preventive medical treatment in certain destinations.",
+              },
               { bold: "true", text: "• Epidemics and Pandemics." },
               { bold: "true", text: "• Epidemics and Pandemics." },
-              { bold: "true", text: "• Non-emergency dental treatments and rehabilitation treatments. " },
-              { bold: "true", text: "• The refund of expenses covered by this policy that the Insured can recover from the Transport Company, tour operator or authorized travel agent orfrom any other contracted supplier." },
-           { bold: "true", text: "• Claims involving a vehicle with a gross vehicle weight of more than 3,500kg " }, 
-           { bold: "true", text: "• The costs of transport or accommodation that have been paid for by the transport company, tour operator or authorized travel agent.  " }, 
-          { bold: "true", text: "• The costs of transport or accommodation that have been paid for by the transport company, tour operator or authorized travel agent.  " },
-          ],
+              {
+                bold: "true",
+                text: "• Non-emergency dental treatments and rehabilitation treatments. ",
+              },
+              {
+                bold: "true",
+                text: "• The refund of expenses covered by this policy that the Insured can recover from the Transport Company, tour operator or authorized travel agent orfrom any other contracted supplier.",
+              },
+              {
+                bold: "true",
+                text: "• Claims involving a vehicle with a gross vehicle weight of more than 3,500kg ",
+              },
+              {
+                bold: "true",
+                text: "• The costs of transport or accommodation that have been paid for by the transport company, tour operator or authorized travel agent.  ",
+              },
+              {
+                marginBottom: 10,
+                bold: "true",
+                text: "• The costs of transport or accommodation that have been paid for by the transport company, tour operator or authorized travel agent.  ",
+              },
+              { marginBottom: 10, text: "D0010 DELAYS", color: "green" },
+              { marginBottom: 10, text: "COVER SECTION", bold: "true" },
+              {
+                marginBottom: 10,
+                text: "Whenever the departure of the aerial means of public transport contracted bythe Insured is delayed by a minimum of 4 hours, the Company shall reimburse the additional expenses incurred for transport, board and lodgings in a hotel as aconsequence of the said delay or cancellation, up to the limit duly established in the Specific or Special Conditions. ",
+              },
+              {
+                marginBottom: 10,
+                text: "In order to claim indemnity under this guarantee, the Insured must present the following documents:",
+              },
+              {
+                text: "a. Certificate from the carrier that reflects the actual departure time and the cause of the delay.",
+              },
+              {
+                marginBottom: 10,
+                text: "b. Original bills of the expenses incurred as a result of the delay.",
+              },
+              {
+                marginBottom: 10,
+                text: "D0030 CURTAILMENT",
+                color: "green",
+                marginBottom: 10,
+              },
+              { marginBottom: 10, text: "COVER SECTION", bold: "true" },
+              {
+                marginBottom: 10,
+                text: "B0210 EARLY RETURN DUE TO SERIOUS FAMILY MATTER ",
+                bold: "true",
+              },
+              {
+                text: "Whenever the Insured is forced to curtail a trip, due to the death of a relative ordue to the hospitalisation of a relative for more than 5 days, the Company shall arrange the return to their usual place of residence or to the place of interment or hospitalization in the Insured usual place of residence, provided they are unable to travel by their own means of transport or that hired to undertake the trip.",
+                bold: "true",
+              },
+            ],
           },
           {
-            stack: [],
+            stack: [
+              {
+                marginBottom: 10,
+                text: "The Insured must furnish all documentary proof or certificates relating to theevent that led to the interruption of the journey (death certificate, medical report. etc). ",
+              },
+              {
+                text: "D0031 CURTAILMENT EXPENSES ",
+                bold: "true",
+                marginBottom: 10,
+              },
+              {
+                text: "In case the Insured's trip is curtailed or interrupted the Company shall reimbursethe cost of interrupting the contracted trip, charged to the Insured in applicationof the general sales conditions of their provider, provided that the trip is curtailedfor one of the following reasons:",
+                marginBottom: 10,
+              },
+              {
+                text: "1. For family or health reasons: ",
+                bold: "true",
+              },
+              {
+                text: "1.1. Serious illness, serious bodily injury or death of the Insured or of their relatives. ",
+              },
+              {
+                text: "1.2. Receiving custody of an adopted child.",
+                marginBottom: 10,
+              },
+              {
+                text: "1.1. Serious illness, serious bodily injury or death of the Insured or of theirrelatives",
+              },
+              {
+                text: "1.2. Receiving custody of an adopted child.",
+              },
+              { text: "2. Due to official requirements:", bold: "true" },
+              {
+                text: "2.1. The Insured is called before one of the State’s official bodies.",
+                marginBottom: 10,
+              },
+              { text: "3. For work-related reasons:", bold: "true" },
+              {
+                text: "3.1. Taking up a new position with a labour contract while unemployed or in adifferent company, which does not belong to the same business group.",
+              },
+              {
+                text: "3.2. Unforeseen, obligatory transfer to a workplace located in a differentProvince/State to that of their residence, for a period in excess of threemonths",
+              },
+              { text: "3.3. Professional dismissal of the Insured." },
+              {
+                text: "3.4. A justified or unforeseen change in the holiday leave previously granted by the company with which the Insured has an employment contract",
+              },
+              {
+                text: "3.5. Receiving a training grant or internship with a start date coinciding with theexpected date for travel, when the Insured was notified of its granting afterthe date on which the insurance was taken out.",
+                marginBottom: 10,
+              },
+              { text: "4. For extraordinary reasons:", bold: "true" },
+              {
+                text: "4.1. Serious damage to their usual or secondary residence or owned or rentedbusiness premises that renders them uninhabitable or at serious risk of further damage occurring, thus making the Insured presence there essential.",
+              },
+              {
+                text: "4.2. Declaration of disaster area in the Insured's usual town of residence.",
+              },
+              { text: "5. Other reasons:", bold: "true" },
+              {
+                text: "5.1. Due to breakdown or accident of the Insured's privately owned vehicle, occurring during the 48 hours prior to starting the journey, making it impossible for the Insured to begin the trip. In the case of breakdown, cancellation of the trip will be covered only if the vehicle is less than four years old.",
+              },
+              {
+                text: "5.2. Due to breakdown or accident of the mode of transport used to travel tothe terminal, port or airport to begin the journey, causing the Insured tomiss the contracted transport. Only the costs of alternate transport to rejoin the trip or 50% of the cancellation costs will be covered if the Insured decides to cancel the trip.",
+              },
+              {
+                text: "5.3. Theft of documentation or luggage up to 24 hours prior to the start of the journey, which impedes the Insured from initiating the journey.",
+              },
+              {
+                marginBottom: 10,
+                text: "5.4. Curtailment of a trip by the accompanying Insured Parties under this same contract, provided this cancellation stems from one of the causes listed above. Should the accompanying Insured Parties decide to continue the journey, additional expenses shall be duly covered in respect of the Insured cancellation of a trip",
+              },
+              {
+                text: "SPECIFIC EXCLUSIONS CURTAILMENT ",
+                bold: "true",
+                marginBottom: 10,
+              },
+              {
+                text: "In addition to the General Exclusions to all the cover sections of this policy, this cover shall not be provided for the following cases and their consequences:",
+              },
+              {
+                text: "• Failure to furnish, for any cause, the documents indispensable for any travel, such as Passport, Visa, tickets, Identity Card or vaccination certificates.",
+              },
+              {
+                text: "• Travel or vaccination contraindication or the impossibility of continuingrecommended preventive medical treatment in certain destinations.",
+              },
+              { text: "• Epidemics and Epidemics." },
+              {
+                text: "• Non-emergency dental treatments and rehabilitation treatments. ",
+              },
+              {
+                text: "• The refund of expenses covered by this policy that the Insured can recoverfrom the Transport Company, tour operator or authorized travel agent or from any other contracted supplier. ",
+              },
+              {
+                text: "• Claims involving a vehicle with a gross vehicle weight of more than 3,500kg ",
+              },
+              {
+                text: "• The costs of transport or accommodation that have been paid for by the transport company, tour operator or authorized travel agent.",
+                marginBottom: 10,
+              },
+              {
+                text: "DOCUMENTS NECESSARY TO CLAIM FOR PAYMENT OF CURTAILMENTEXPENSES :",
+                bold: "true",
+                pageBreak: "after",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        columns: [
+          {
+            stack: [
+              {
+                text: "To process the claim, the Insured must provide the following documents: ",
+              },
+              {
+                text: "1. Document certifying that the claim occurred (doctor's report, deathcertificate, police report, etc.). This document must reflect the date on which the incident occurred (hospitalisation, death, breakdown, accident,etc.). ",
+              },
+              {
+                text: "2. List of the services hired for the trip (accommodation, flights, etc.) and receipt of payment for the same.",
+              },
+              {
+                text: "3. Cancellation conditions of said services and proof of their cancellation. ",
+              },
+              {
+                text: "4. Invoice of the cancellation or curtailment costs or payment note for thecosts that are not included in the cancellation costs”",
+              },
+              {
+                marginBottom: 10,
+                text: "5. It is essential that the expenses for cancelling the trip are duly reflected in the required documentation outlined above. ",
+              },
+              {
+                marginBottom: 10,
+                text: "F0000 PERSONAL ACCIDENTS",
+                color: "green",
+                bold: "true",
+              },
+              { marginBottom: 10, text: "COVER SECTION", bold: "true" },
+              {
+                marginBottom: 10,
+                text: "F0020 ACCIDENTAL DEATH MEANS OF TRANPORT ",
+                bold: "true",
+              },
+              {
+                marginBottom: 10,
+                text: "Should the Insured die while on a trip, as a consequence of an accident occurringon a public means of transport, the Company shall pay the Beneficiary up to thesum insured duly established in the Specific or Special Conditions. ",
+              },
+              {
+                marginBottom: 10,
+                text: "Persons over the age of sixty-five are not subject to these coverages. Minors and disabled persons may only be insured with written authorization from their legalrepresentatives. In any case, children under 14 are not insurable under thiscoverage.",
+              },
+              {
+                marginBottom: 10,
+                text: "The indemnities limit for all the affected Insureds by the same accident is 5 MillionEUROS, regardless the number of Insureds or policies involved. ",
+              },
+              {
+                marginBottom: 10,
+                text: "For the purposes of the policy, a public means of transport shall be taken to meanthat contracted for the trip covered by the policy, limited to a plane, ship, train or coach, including boarding and alighting from said means of transport.Likewise considered a public means of transport (limited to taxi, chauffeur-drivenrental car, tram, bus, train or underground train) shall be that used fortransportation directly from the departure or arrival point (home or hotel) to the terminal in question (station, airport, port). ",
+              },
+              {
+                marginBottom: 10,
+                text: "Should there be no designated Beneficiary upon the death of the Insured, norrules to determine one, the insured sum shall go on to form part of the deceasedInsured’s estate. Where there are several Beneficiaries, save some agreement tothe contrary, payment of the sum insured shall be divided equally between them,or in proportion to their share of the estate, where those designated are the legalheirs. Save agreement to the contrary, any part not acquired by a Beneficiary shallgo towards that of the others. In the event that any of the Beneficiaries should bea willful causer of the accident, any designation in favor of the same shall bedeemed null and void and that corresponding part shall go towards that of the other Beneficiaries or, where applicable, shall form part of the deceased Insured’s estate. ",
+              },
+              {
+                marginBottom: 10,
+                text: "Where, prior to the death, the Company should have paid an indemnity for disablement, as a result of the same accident and this had occurred less than oneyear beforehand, it shall indemnify the difference between the amount paid and the insured sum in the event of death. Should the indemnity already paid out begreater, the Company shall not lay claim to the difference.In order to claim payment of the indemnity under this guarantee, the Policyholderor the Beneficiaries must provide the Company with the following documents: ",
+              },
+              {
+                text: "a. Birth certificate and a literal copy of the death certificate for the Insured.",
+              },
+              {
+                text: "b. Those that prove the identity of the Beneficiaries",
+              },
+
+              {
+                text: "c. Where the Beneficiaries are the Insured’s legal heirs, the requirements shallalso include a copy of the deed awarding and distributing the deceased’s estate or, where applicable, the declaration of heirs handed down by thecompetent court. ",
+              },
+              {
+                marginBottom: 10,
+                text: "d. Letter of payment or declaration of exemption from the corresponding Taxesin ETHIOPIA. ",
+              },
+              {
+                text: "F0040 PERMANENT ACCIDENTAL DISABILITY (MEANS OF TRANSPORT) ",
+                bold: "true",
+                marginBottom: 10,
+              },
+              {
+                text: "In the event of suffering permanent disablement as a consequence of bodily injuries sustained in an accident on some public means of transport while theInsured was on a trip, the Company shall pay the Beneficiary up to the suminsured duly established in the Specific or Special Conditions. For the purposes ofthe policy, disablement shall be taken to mean the anatomic loss or lack of functionality of limbs and organs, as a consequence of bodily injuries that stemfrom an accident suffered while the Insured was away on some trip. ",
+              },
+            ],
+          },
+          {
+            stack: [
+              {
+                marginBottom: 10,
+                text: "For the purposes of the policy, a public means of transport shall be taken to meanthat contracted for the trip covered by the policy, limited to a plane, ship, train orcoach, including boarding and alighting from said means of transport. Likewiseconsidered a public means of transport (limited to taxi, chauffeur-driven rental car, tram, bus, train or underground train) shall be that used for transportation directly from the departure or arrival point (home or hotel) to the terminal in question (station, airport, port).  ",
+              },
+              {
+                marginBottom: 10,
+                text: "The amount of the indemnity shall be determined by applying to the insured sum– duly established in the Specific or Special Conditions – the percentages set forthin the injury table of this guarantee. In calculating the said percentages, neitherthe Insured’s profession or age, nor any other factor alien to the scale, shall be considered. ",
+              },
+              {
+                text:"Applying the table of injuries shall be governed by the following principles: ",marginBottom:10 
+              },
+              {
+                text:"a. Those types of disablement not expressly specified shall be indemnified by analogy with other cases that do appear therein. "
+              },
+              {
+                text:"b. In the event that, prior to the accident, some member or organ sufferedamputations or functional limitations, the percentage of the indemnity shall be the difference between the pre-existing disablement and that present after the accident. "
+              },
+              {
+                text:"c. When the injuries affect the non-dominant upper limb, the left of a righthanded person or vice versa, the indemnity percentages for the same shall be reduced by 15 per cent. "
+              },
+              {
+                text:"d. Partial limitations and anatomic losses shall be indemnified proportionally,with respect to the total loss of the affected limb or organ. The total lack offunctionality of some limb or organ shall be considered as total loss thereof"
+              },
+              {marginBottom:10,
+                text:"e. The sum of diverse partial percentages related to the same limb or organ shall not exceed the percentage of indemnity established for the total loss thereof. "
+              },
+              {
+                text:"The accumulation of all the disablement percentages arising from the same accident shall not give rise to an indemnity of over 100 per cent. "
+              },
+              {
+                text:"Recognizing the right to this guarantee corresponds exclusively to the Company,which shall verify the degree of disability suffered by the Insured. To this end,following examination by a doctor who declares the condition to be definitive, the Company shall assess the Insured’s physical condition using the medical reports which confirm the disability in question and which the Insured undertakesto furnish when required."
+              },
+              {
+                text:"Where twelve months pass from the date of the accident, without the Companybeing able to assess the Insured’s physical condition, the latter may request afurther period of up to twelve months more. Following this period, the Company shall determine whether or not a disability exists and, if so, what degree ofdisability shall be deemed definitive for the purposes of the policy. Should the Insured not accept the assessment of their condition by the Company, they maycall upon the mediation services of an expert appraiser, as provided for under Article 38 of the Insurance Contract Act. Each party shall satisfy the fees of its ownappraiser. Those of the third appraiser and all other expenses arising from the appraisal evaluation shall be divided equally between the Insured and theCompany. However, should either of the parties have made it necessary to seeksuch mediation, due to having made a manifestly disproportionate assessment of the injuries, that party shall be solely liable for the said expenses. "
+              },
+            ],
           },
         ],
       },
